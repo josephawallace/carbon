@@ -1653,6 +1653,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "carbon-pumpfun-jito-shredstream-grpc-datasource"
+version = "0.8.1"
+dependencies = [
+ "async-trait",
+ "bincode",
+ "carbon-core",
+ "carbon-jito-protos",
+ "futures",
+ "log",
+ "scc",
+ "solana-client",
+ "solana-entry",
+ "solana-stream-sdk",
+ "solana-transaction-status",
+ "tokio",
+ "tokio-util",
+]
+
+[[package]]
 name = "carbon-raydium-amm-v4-decoder"
 version = "0.8.1"
 dependencies = [
@@ -8264,6 +8283,21 @@ dependencies = [
  "solana-transaction-context",
  "solana-type-overrides",
  "solana-vote-interface",
+]
+
+[[package]]
+name = "solana-stream-sdk"
+version = "0.2.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "51324255a1a7f793e8b3c711beccab143391e3fabe15e5f36c0b9b6001636f26"
+dependencies = [
+ "prost 0.12.6",
+ "prost-types 0.12.6",
+ "protobuf-src",
+ "thiserror 1.0.69",
+ "tokio",
+ "tonic 0.10.2",
+ "tonic-build 0.10.2",
 ]
 
 [[package]]

@@ -1,0 +1,30 @@
+[package]
+name = "carbon-pumpfun-jito-shredstream-grpc-datasource"
+description = "PumpFun Jito Shredstream gRPC Datasource"
+license = { workspace = true }
+version = "0.8.1"
+edition = { workspace = true }
+readme = "README.md"
+repository = { workspace = true }
+keywords = ["solana", "indexer", "shredstream", "datasource"]
+categories = ["encoding"]
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]
+solana-client = { workspace = true }
+solana-entry = { workspace = true }
+solana-stream-sdk = { workspace = true }
+solana-transaction-status = { workspace = true }
+
+carbon-core = { workspace = true }
+
+async-trait = { workspace = true }
+bincode = { workspace = true }
+carbon-jito-protos = { workspace = true }
+futures = { workspace = true }
+log = { workspace = true }
+scc = "2.3.4"
+tokio = { workspace = true, features = ["full"] }
+tokio-util = { workspace = true }

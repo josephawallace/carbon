@@ -41,6 +41,7 @@ carbon-helius-atlas-ws-datasource = { path = "datasources/helius-atlas-ws-dataso
 # misc
 carbon-jito-protos = { path = "misc/jito-protos", version = "0.2.4" }
 carbon-jito-shredstream-grpc-datasource = { path = "datasources/jito-shredstream-grpc-datasource", version = "0.8.1" }
+carbon-pumpfun-jito-shredstream-grpc-datasource = { path = "datasources/pumpfun-jito-shredstream-grpc-datasource", version = "0.8.1" }
 carbon-jupiter-dca-decoder = { path = "decoders/jupiter-dca-decoder", version = "0.8.1" }
 carbon-jupiter-limit-order-2-decoder = { path = "decoders/jupiter-limit-order-2-decoder", version = "0.8.1" }
 carbon-jupiter-limit-order-decoder = { path = "decoders/jupiter-limit-order-decoder", version = "0.8.1" }
@@ -144,6 +145,7 @@ solana-program = "2.2"
 solana-program-pack = "2.2"
 solana-pubkey = { version = "2.2", features = ["serde", "borsh", "curve25519"] }
 solana-signature = { version = "2.2", features = ["rand"] }
+solana-stream-sdk = "0.2.5"
 solana-transaction = "2.2"
 solana-transaction-context = "2.2"
 solana-transaction-status = "2.2"
